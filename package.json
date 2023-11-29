@@ -1,0 +1,20 @@
+{
+  "name": "masterelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "Joel-C-Johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0"
+  }
+}
